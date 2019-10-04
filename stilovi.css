@@ -1,0 +1,144 @@
+body{
+    background-color: #891715;
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    position: absolute;
+    left: 10%;
+    height: 100px;
+}
+
+#header img{
+    position: absolute;
+    top:50%;
+    transform: translate(0%,-50%);
+}
+
+#topMenu{
+    position: absolute;
+    top: 100px;
+    height: 50px;
+    left: 10%;
+    width: 80%;
+    background-color: #909090;
+}
+
+#topMenu ul li{
+    position: relative;
+    display:inline-block;
+    color: white;
+    top:-16px;
+    left: 16px;
+    padding: 16px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#topMenu ul a li:hover{
+    background-color: #891715;
+}
+
+#topMenu ul a .ivica{
+    border-right: 1px solid white;
+}
+
+#about{
+    position: absolute;
+    top:150px;
+    background-color: #87a984;
+    height: 300px;
+    left:10%;
+    width: 80%;
+}
+
+#about .slika{
+    width: 31%;
+    height: 300px;
+    float: left;
+}
+#about .slika img{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+#about .tekst{
+    position: relative;
+    height: 300px;
+    width: 69%;
+    color: white;
+    top: 30%;
+    left: 31%;
+}
+#about .tekst .tekstBox{
+    position: absolute;
+    left:5%;
+    width:90%;
+    top:5%;
+}
+
+#content{
+    position: absolute;
+    top:470px;
+    height: 500px;
+    left:10%;
+    width: 80%;
+}
+
+#content .leftMenu{
+    background-color: #96afac;
+    width: 31%;
+    height: 500px;
+    float: left;
+}
+
+#content .sadrzaj{
+    background-color: #dbd8c5;
+    position: relative;
+    height: 500px;
+    width: 69%;
+    left: 31%;
+}
+
+#content .leftMenu ul li{
+    position: relative;
+    display:block;
+    color: white;
+    left: 16px;
+    padding: 16px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid white;
+    width: 60%;
+}
+
+#content .leftMenu ul a{
+    text-decoration: none;
+}
+
+#content .sadrzaj{
+    color: #6b6c6d;
+    position: relative;
+    width: 69%;
+    left: 31%;
+}
+
+#content .sadrzaj .naslov{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content .sadrzaj .sadrzajBox{
+    position: absolute;
+    left:5%;
+    width:90%;
+    top:5%;
+}
+
+#content .sadrzaj .tekst{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
